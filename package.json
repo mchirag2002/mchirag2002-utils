@@ -1,0 +1,19 @@
+{
+    "name": "@mchirag2002/utils",
+    "version": "1.0.1",
+    "description": "A collection of utility functions by Chirag",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Chirag Mathur",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.5.0",
+        "typescript": "^5.9.3"
+    },
+    "scripts": {
+        "build": "tsup src/index.ts --dts"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
